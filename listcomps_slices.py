@@ -1,3 +1,15 @@
+#LIST COMPREHENSIONS
+#combines the for loop and new elements into one line while simultaneously appending each element
+#notnice how there's no ; at the end of the for statement
+#from 4 lines of code, to 3 and then 1; all accomplissh the same task but this one is much more efficient
+#squares = [value ** 2 for value in range(1,11)]
+#print(squares)
+
+squared_odds = [numbers ** 2 for numbers in range(1,16,2)]
+print(squared_odds)
+
+
+
 #COUNTING TO TWENTY
 #count_twenty = [numbers for numbers in range(21)]
 #print(count_twenty)
